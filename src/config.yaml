@@ -1,4 +1,4 @@
-site:
+﻿site:
   name: 'Pusat Sedot WC Sidoarjo Kota - Layanan Prioritas 24 Jam'
   site: 'https://example.com' # Nanti Cloudflare akan otomatis menyesuaikan
   base: '/'
@@ -10,10 +10,10 @@ site:
 metadata:
   title:
     default: 'Pusat Sedot WC Sidoarjo Kota - Layanan Prioritas 24 Jam'
-    template: '%s — Sedot WC SIDOARJO'
+    template: '%s â€” Sedot WC SIDOARJO'
   description: "Tukang Sedot WC SIDOARJO profesional. Melayani sedot septic tank penuh, pelancaran saluran mampet, dan limbah industri. Respon cepat & harga transparan!"
   robots:
-    index: true
+    index: false
     follow: true
   openGraph:
     site_name: 'Pusat Sedot WC Sidoarjo Kota - Layanan Prioritas 24 Jam'
@@ -40,19 +40,19 @@ apps:
       isEnabled: true
       permalink: '/%slug%' 
       robots:
-        index: true
+        index: false
 
     list:
       isEnabled: true
       pathname: 'Pusat Sedot WC Sidoarjo Kota - Layanan Prioritas 24 Jam' 
       robots:
-        index: true
+        index: false
 
     category:
       isEnabled: true
       pathname: 'Pusat Sedot WC Sidoarjo Kota - Layanan Prioritas 24 Jam' 
       robots:
-        index: true
+        index: false
 
     tag:
       isEnabled: true
@@ -70,4 +70,7 @@ analytics:
 
 ui:
   theme: 'light' # Untuk jasa sedot WC, tema "Light" biasanya terlihat lebih bersih dan terpercaya
+
+
+
 
